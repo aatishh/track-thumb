@@ -64,14 +64,22 @@ Final solid → binary STL mesh (~300K triangles) for 3D printing/viewing.
 ## Code Structure
 Main Python Script (2634 lines)
 ├── Boolean helpers (fuse, cut, intersect)
+
 ├── 40+ sketches on inclined planes
+
 ├── Resampled loft profiles (64-point lists)
+
 └── Build sequence:
 ├── 12× Extrude (ADD)
+
 ├── 15× Extrude (CUT)
+
 ├── 6× Loft
+
 ├── 2× Sweep
+
 ├── 1× Revolve
+
 └── Export to STL
 # track-thumb
 Source volume : 12281.72 mm³
