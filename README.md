@@ -45,8 +45,6 @@ Build model using sequential CAD operations:
 - **Fuse:** Merge two solids together
 - **Cut:** Remove one solid from another
 - **Intersect:** Keep only overlapping volume
-- Use **fuzzy tolerance (0.01 mm)** to handle floating-point precision errors
-- Filter stray geometry outside original bounding box on cuts
 
 ### 5. **Sweep with Fallback Strategy**
 When dragging a profile along a curved path:
